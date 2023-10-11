@@ -1,0 +1,623 @@
+/* 
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+ } */
+
+
+ @font-face {
+    font-family: 'Poppins-Bold';
+    src: url('./../fonts/Poppins-Bold.ttf') format('truetype');
+ }
+ @font-face {
+    font-family: 'Poppins';
+    src: url('./../fonts/Poppins-Regular.ttf') format('truetype');
+ }
+
+/* Common css starts */
+body {
+    font-family: Poppins;
+    font-size: 16px;
+    /* font-weight: bold; */
+    margin: 0px;
+    color: white;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: Poppins-Bold;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+.Title h2 {
+    font-size: 265%;
+    padding-top: 10px;
+}
+
+.p-block {
+    display: block;
+    /* font-size: 90%; */
+
+}
+
+/* Common css ends */
+
+/* Header css starts */
+.header-section .logo {
+    width: 110px;
+}
+
+.header-section .logo img {
+    width: 100%;
+    height: auto;
+}
+
+.header-section .align-center {
+    align-items: center;
+}
+
+.header-section {
+    background-color: #00adffb0;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+header.header-section {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+.header-section .logo-container {
+    width: 100px;
+}
+
+.flex .links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.flex .links a {
+    color: white;
+    padding: 5px 14px;
+    text-decoration: none;
+
+}
+
+.flex .links li:first-child a {
+    padding-left: 0;
+}
+
+.header-section .align-center {
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-section .search-button {
+    background-color: transparent;
+    border: none;
+    width: 34px;
+}
+
+/* Header css ends */
+
+/* --------> Heading-section css starts <----------------- */
+
+
+
+.Banner-section h1 {
+    /* font-family: 'Poppins-SemiBold'; */
+    font-size: 350%;
+    padding-top: 100px;
+}
+
+
+.Banner-section {
+    background-image: linear-gradient(#0000ff78, #0000ff59), url(./../Images/banner_image.jpg);
+    background-position: center;
+    /* color: white; */
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+button {
+    background-color: yellow;
+    border: 20px;
+    width: 20%;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: large;
+    color: white;
+}
+
+/* ------------------ Heading-section css ends ----------------------- */
+
+/* ------------------- Sub-main section starts -----------------------  */
+.Title h2 {
+    font-size: 265%;
+    padding-top: 10px;
+}
+
+.Title p {
+    font-size: 130%;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+.heading-section {
+    text-align: center;
+
+}
+
+.sub-main-section {
+    padding-top: 1px;
+    background-color: #009bff;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cloumn {
+    padding: 5px 5px;
+}
+
+/* -------------------- Sub-main section ends  -----------------------  */
+
+/* ------------------- Sub-main section-2 starts -----------------------  */
+
+
+section.sub-main-section-2 {
+    padding-top: 1px;
+}
+
+section.sub-main-section-2 h2 {
+    font-size: 60px;
+}
+
+section.sub-main-section-2 p {
+    padding: 0px 20px;
+}
+
+.sub-main-section-2 {
+    background-image: linear-gradient(#ffff0082, #ffff00ad), url(./../Images/pet_care_banner.png.jpg);
+    background-position: center;
+    padding-top: 1px;
+    text-align: center;
+}
+
+.p-block .one {
+    display: block;
+}
+
+.circles {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 300px;
+    padding-bottom: 190px;
+}
+
+.circles>div {
+
+    padding: 20px;
+
+    border: 5px solid white;
+
+    border-radius: 50%;
+
+    width: 200px;
+
+    height: 200px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.circles h3 {
+    font-size: 180%;
+}
+
+/* ------------------- Sub-main section-2 ends -----------------------  */
+
+/* ------------ Common css for section-3 & section-4 starts--------------*/
+.column {
+    padding: 10px 10px;
+}
+
+.side>h2 {
+    padding-top: 110px;
+}
+
+/* ------------ Common css for section-3 & section-4 ends--------------*/
+
+/* ------------------- Sub-main section-3 starts ----------------------- */
+
+.sub-main-section-3 {
+    background-color: #00adff;
+}
+
+.block-3 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.image1 {
+    padding: 50px 0px;
+}
+
+
+.Title-heading.side {
+    padding: 110px 0px;
+}
+
+.content button {
+
+    background-color: yellow;
+    border: 20px;
+    width: 40%;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: large;
+    color: white;
+
+}
+
+/* ------------------- Sub-main section-3 ends -----------------------  */
+
+/* ------------------- Sub-main section-4 starts -----------------------  */
+.sub-main-section-4 {
+    background-color: #009bff;
+}
+
+.block-4 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.image2 {
+    padding: 50px 10px;
+}
+
+/* ------------------- Sub-main section-4 ends -----------------------  */
+
+/* ------------------- Sub-main section-5 starts -----------------------  */
+section.sub-main-section-5 h2 {
+    font-size: 250%;
+}
+
+.sub-main-section-5 {
+    background-color: #005bff;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.column-boxes {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.column-boxes>.box {
+    background-color: white;
+    border: 10px solid #005bff;
+    color: blue;
+}
+
+.box {
+
+    color: white;
+    padding: 25px 5px;
+
+    border-radius: 3px;
+    float: left;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box .button-box {
+    width: 72%;
+    background-color: yellow;
+    border-color: none;
+    border-radius: 15px;
+}
+
+/* ------------------- Sub-main section-5 ends -----------------------  */
+
+/* ------------------- Sub-main section-6 starts -----------------------  */
+
+.sub-main-section-6 {
+    background-color: #009bff;
+    padding: 20px 50px;
+}
+
+.header-6 {
+    text-align: center;
+}
+
+.span1 {
+    display: block;
+
+}
+
+.full-paragraph {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+.para {
+    display: flex;
+    padding-left: 17px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.span {
+    padding-left: 15px;
+}
+
+/* ------------------- Sub-main section-6 ends -----------------------  */
+
+/* ------------------- Sub-main section-7 starts -----------------------  */
+
+.sub-main-section-7 {
+    text-align: center;
+    /* padding-top: 1px; */
+}
+
+.heading-paragraph {
+    padding-top: 450px;
+    padding-bottom: 400px;
+    background-image: linear-gradient(#ffc10778, #ffc107c9), url(./../Images/dr_Jenny.jpg);
+}
+
+.footer-class {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+
+}
+
+.footer-section h2 {
+    
+    font-family: Poppins;
+    font-size: 100%;
+}
+
+.list-class {
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-class>h3 {
+
+    padding-left: 2px;
+    font-size: 100%;
+
+}
+
+.order {
+    list-style: none;
+    padding-left: 0;
+}
+
+.order>li {
+    font-size: 80%;
+}
+
+.footer-section {
+    padding: 15px 20px;
+}
+
+.about-class {
+    padding-right: 20px;
+}
+
+.fa-brands {
+    background-color: #ffffff;
+    color: black;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+/* ------------------- Sub-main section-7 ends -----------------------  */
+
+
+/* --------------------------- media query ------------------------- */
+
+/* desktop view starts */
+
+@media (min-width:768px) {
+    .header-section {
+        flex-direction: row;
+        /* padding-left: 0; */
+    }
+
+    .flex .links a {
+        color: white;
+        padding: 5px 10px;
+        text-decoration: none;
+
+    }
+
+    .flex .links li:first-child a {
+        padding-left: 0px;
+    }
+
+    .header-section .logo-container {
+        align-items: center;
+        /* padding-left: 0; */
+    }
+
+    .sub-section {
+        flex-direction: row;
+    }
+
+    .box {
+        width: 33.33%;
+    }
+
+
+}
+
+/* ------------------- desktop view ends -----------------------*/
+
+
+/* -------- mobile view start ------------------*/
+
+@media (max-width:767px) {
+
+    /* common query start */
+    .mob_f-column {
+        flex-direction: column;
+    }
+
+    /* common query end */
+
+    /* header-section query start */
+    ul.links {
+        padding-left: 1px;
+    }
+
+    .flex .links li a {
+        padding: 4px;
+    }
+
+    /* header-section query end */
+
+    /* banner-section query start */
+    .Banner-section h1 {
+        font-size: 300%;
+    }
+
+    .Banner-section button {
+        width: 50%;
+    }
+
+    /* header-section query end */
+
+    /* Sub-main section-2 query starts */
+    .circles {
+        padding-left: 80px;
+        padding-top: 50px;
+    }
+
+    .circles>div {
+        margin-bottom: 20px;
+    }
+
+    .circles h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 280%;
+    }
+
+    .circles p {
+        font-size: 130%;
+
+    }
+
+    .sub-main-section-2 {
+        background-size: cover;
+        background-position: -63% -55px;
+    }
+
+    /* Sub-main section-2 query end */
+
+    /* ------- section 3 & 4 common query  start-------  */
+    .Title-heading.side {
+        padding: 50px 15px;
+    }
+
+    .content button {
+        width: 100%;
+    }
+
+    /* ------- section 3 & 4 common query  end-------  */
+
+
+    /* ---- section-3 start ------ */
+    .sub-main-section-3 .image1 {
+        padding: 215px 10px;
+    }
+
+    /* ------  section-3 end ------ */
+
+    /* ---- section-4 start ------ */
+    .sub-main-section-4 .image2 {
+        padding: 215px 10px;
+    }
+
+    /* ---- section-4 end ------ */
+
+    /* ---section-6 start----- */
+
+    .span h2 {
+        align-items: center;
+        padding-left: 25px;
+    }
+
+    .para {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .full-paragraph {
+        flex-direction: row;
+    }
+
+    .heading-paragraph {
+        padding-top: 300px;
+        padding-bottom: 300px;
+        background-size: cover;
+        background-position: -100% -17%;
+    }
+
+}
+
+/* ---section-6 end----- */
+/* mobile view end -----------------------------------------*/
