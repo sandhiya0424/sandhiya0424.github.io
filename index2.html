@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>         
+</head>
+<body>
+    <p id="para1"> </p>
+
+    <script>
+        let xhttp = new XMLHttpRequest();
+
+        
+       
+        
+
+   xhttp.onreadystatechange = function () {
+    console.log(this.readyState);
+        //if (this.readystate == 4 && this.status == 200) {
+            console.log(this.responseText);
+        }
+
+    //}
+        // connection setup 
+        xhttp.open("GET", "test.txt");
+
+
+        // //request send
+        xhttp.send();
+
+   
+    </script>
+</body>
+</html>
